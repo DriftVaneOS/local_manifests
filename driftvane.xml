@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="driftvane" fetch="https://github.com/DriftVaneOS" revision="lineage-24.0-driftvane" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="driftvane" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="driftvane" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="driftvane" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="driftvane" />
+  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="driftvane" />
+  <remove-project name="LineageOS/android_packages_apps_Launcher3" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="driftvane" />
+  <remove-project name="LineageOS/android_bootable_recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="driftvane" />
+</manifest>
