@@ -15,4 +15,8 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="driftvane" />
   <remove-project name="LineageOS/android_bootable_recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="driftvane" />
+  <remove-project name="LineageOS/android_lineage-sdk" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="driftvane" />
+  <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="driftvane" />
 </manifest>
